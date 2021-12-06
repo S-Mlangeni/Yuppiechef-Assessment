@@ -1,5 +1,4 @@
 <?php 
-    include "./cors.php";
     include "./db.php";
 
     $ourQueryString = "SELECT * FROM products"; 

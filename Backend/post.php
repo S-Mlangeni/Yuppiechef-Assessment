@@ -1,5 +1,4 @@
 <?php 
-    include "./cors.php";
     include "./db.php";
     
     $Name = $_POST["submittedName"];
