@@ -1,0 +1,39 @@
+body { 
+    margin: 0; 
+    font-family: Roboto, 
+    "Helvetica Neue", sans-serif; 
+    background-color: lightgrey;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 410px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.container form {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 35px;
+}
+
+.form-control {
+    width: 100%;
+    /*margin: 10px 0px;*/
+}
+
+.active {
+    color: green
+}
+
+.fas {
+    display: block;
+    color: black;
+}
+
+
